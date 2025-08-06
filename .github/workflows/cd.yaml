@@ -2,6 +2,7 @@ name: Build and deploy the docs
 
 permissions:
     contents: read
+    packages: write
 
 on:
     push:
@@ -25,7 +26,7 @@ jobs:
             uses: docker/metadata-action@v5
             with:
                 images: |
-                    ghcr.io/blokmap/blokmap-frontend
+                    ghcr.io/blokmap/blokmap-docs
                 tags: |
                     type=raw,value={{sha}}
                     type=raw,value=latest
