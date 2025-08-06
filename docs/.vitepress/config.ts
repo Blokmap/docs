@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     title: 'Blokmap Docs',
     description: 'Documentation for Blokmap',
+	base: "/docs/",
 
     locales: {
         en: {
