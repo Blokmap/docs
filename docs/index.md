@@ -31,11 +31,11 @@ features:
     link: /nl/users/institutions/login
   - title: "💻 Ontwikkelaarsdocumentatie"
     details: "Technische documentatie voor het bouwen en onderhouden van BlokMap"
-  - title: "Frontend Development"
-    details: "React, TypeScript en moderne ontwikkelingstools"
+  - title: "Frontend"
+    details: "Ga van start met de frontend applicatie"
     link: /developers/frontend/
-  - title: "Backend Development"
-    details: "API design, database en authenticatie"
+  - title: "Backend"
+    details: "Ga van start met de backend applicatie en database"
     link: /developers/backend/
   - title: "Deployment"
     details: "CI/CD, monitoring en productie deployment"
