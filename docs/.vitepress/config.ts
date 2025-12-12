@@ -3,157 +3,167 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 // https://vitepress.dev/reference/default-theme-config
 export default defineConfig({
-    title: 'Blokmap Docs',
-    description: 'Documentation for Blokmap',
-    base: "/docs/",
-    
-    // Redirect root to Dutch docs by default
-    rewrites: {
-        'index.md': 'nl/index.md'
+    title: 'Blokmap',
+    base: "/docs",
+
+    themeConfig: {
+        socialLinks: [
+            {
+                icon: 'github',
+                link: 'https://github.com/blokmap'
+            }
+        ],
     },
 
     locales: {
-        en: {
-            label: 'English',
-            lang: 'en',
-
+        root: {
+            label: 'Nederlands',
+            lang: 'nl',
             themeConfig: {
                 nav: [
-                    { text: 'Home', link: '/en' },
-                    { text: 'User Manual', link: '/en/users/' },
-                    { text: 'Developer Docs', link: '/developers/' }
+                    { text: 'Studenten', link: '/nl/user/students/' },
+                    { text: 'Locaties', link: '/nl/user/locations/' },
+                    { text: 'Instellingen', link: '/nl/user/institutions/' },
+                    { text: 'Ontwikkelaars', link: '/nl/dev/' }
                 ],
 
                 sidebar: {
-                    '/en/users/': [
+                    '/nl/user/students/': [
                         {
-                            text: 'Getting Started',
+                            text: 'Blokmap Profiel',
                             items: [
-                                { text: 'Introduction', link: '/en/users/' },
-                                { text: 'Account Setup', link: '/en/users/getting-started' }
+                                { text: 'Overzicht', link: '/nl/user/students/' },
+                                { text: 'Inloggen', link: '/nl/user/students/' },
+                                { text: 'Profiel beheren', link: '/nl/user/students/managing-profile' }
                             ]
                         },
                         {
-                            text: 'For Students',
+                            text: 'Locaties',
                             items: [
-                                { text: 'Finding Locations', link: '/en/users/individuals/locations' },
-                                { text: 'Making Reservations', link: '/en/users/individuals/reservations' },
-                                { text: 'Managing Profile', link: '/en/users/individuals/profile' },
-                            ],
+                                { text: 'Locaties zoeken', link: '/nl/user/students/finding-locations' },
+                            ]
                         },
                         {
-                            text: 'For Authorities',
+                            text: 'Reserveren',
                             items: [
-                                { text: 'Managing Members', link: '/en/users/authorities/members' },
-                                { text: 'Managing Locations', link: '/en/users/authorities/locations' },
-                            ],
-                        },
-                        {
-                            text: 'For Institutions',
-                            items: [
-                                { text: 'Institution Login', link: '/en/users/institutions/login' },
-                                { text: 'System Administration', link: '/en/users/institutions/admin' }
-                            ],
+                                { text: 'Reservaties maken', link: '/nl/user/students/making-reservations' },
+                                { text: 'Reservaties beheren', link: '/nl/user/students/managing-reservations' },
+                                { text: 'Reservaties bevestigen', link: '/nl/user/students/managing-reservations' }
+                            ]
                         },
                     ],
-                },
-            },
-        },
-        nl: {
-            label: 'Nederlands',
-            lang: 'nl',
-
-            themeConfig: {
-                nav: [
-                    { text: 'Home', link: '/nl' },
-                    { text: 'Gebruikershandleiding', link: '/nl/users/' },
-                    { text: 'Ontwikkelaarsdocs', link: '/developers/' }
-                ],
-
-                sidebar: {
-                    '/nl/users/': [
+                    '/nl/user/locations/': [
                         {
                             text: 'Aan de slag',
                             items: [
-                                { text: 'Introductie', link: '/nl/users/' },
-                                { text: 'Account aanmaken', link: '/nl/users/getting-started' }
+                                { text: 'Overzicht', link: '/nl/user/locations/' }
                             ]
                         },
                         {
-                            text: 'Voor Studenten',
+                            text: 'Locatie instellen',
                             items: [
-                                { text: 'Locaties zoeken', link: '/nl/users/individuals/locations' },
-                                { text: 'Reservaties maken', link: '/nl/users/individuals/reservations' },
-                                { text: 'Profiel beheren', link: '/nl/users/individuals/profile' },
-                            ],
+                                { text: 'Locatie indienen', link: '/nl/user/locations/submitting-location' }
+                            ]
                         },
                         {
-                            text: 'Voor Authoriteiten',
+                            text: 'Locatie beheren',
                             items: [
-                                { text: 'Leden beheren', link: '/nl/users/authorities/members' },
-                                { text: 'Locaties beheren', link: '/nl/users/authorities/locations' },
-                            ],
+                                { text: 'Gegevens bijwerken', link: '/nl/user/locations/managing-location' },
+                                { text: 'Openingstijden', link: '/nl/user/locations/opening-times' }
+                            ]
                         },
                         {
-                            text: 'Voor Instituties',
+                            text: 'Reservaties',
                             items: [
-                                { text: 'Institutie login', link: '/nl/users/institutions/login' },
-                                { text: 'Systeembeheer', link: '/nl/users/institutions/admin' }
-                            ],
+                                { text: 'Reservaties beheren', link: '/nl/user/locations/managing-reservations' }
+                            ]
                         },
+                        {
+                            text: 'Toegang',
+                            items: [
+                                { text: 'Toegangscontrole', link: '/nl/user/locations/access-control' }
+                            ]
+                        }
                     ],
+                    '/nl/user/institutions/': [
+                        {
+                            text: 'Aan de slag',
+                            items: [
+                                { text: 'Overzicht', link: '/nl/user/institutions/' },
+                                { text: 'Instellingstypes', link: '/nl/user/institutions/institution-types' }
+                            ]
+                        },
+                        {
+                            text: 'Locaties',
+                            items: [
+                                { text: 'Locaties beheren', link: '/nl/user/institutions/managing-locations' },
+                                { text: 'Openingstijden', link: '/nl/user/institutions/opening-times' }
+                            ]
+                        },
+                        {
+                            text: 'Reservaties',
+                            items: [
+                                { text: 'Reservaties beheren', link: '/nl/user/institutions/managing-reservations' }
+                            ]
+                        },
+                        {
+                            text: 'Toegang',
+                            items: [
+                                { text: 'Toegangscontrole', link: '/nl/user/institutions/access-control' }
+                            ]
+                        },
+                        {
+                            text: 'Groepen',
+                            items: [
+                                { text: 'Groepen beheren', link: '/nl/user/institutions/authorities' },
+                                { text: 'Instellingstoegang', link: '/nl/user/institutions/institution-access' }
+                            ]
+                        }
+                    ],
+                    '/nl/dev/': [
+                        {
+                            text: 'Overzicht',
+                            items: [
+                                { text: 'Welkom', link: '/nl/dev/' }
+                            ]
+                        },
+                        {
+                            text: 'Setup',
+                            items: [
+                                { text: 'Aan de slag', link: '/nl/dev/getting-started' }
+                            ]
+                        },
+                        {
+                            text: 'Architectuur',
+                            items: [
+                                { text: 'Systeem architectuur', link: '/nl/dev/architecture' }
+                            ]
+                        },
+                        {
+                            text: 'API',
+                            items: [
+                                { text: 'API Documentatie', link: '/nl/dev/api' }
+                            ]
+                        },
+                        {
+                            text: 'Ontwikkeling',
+                            items: [
+                                { text: 'Development Guide', link: '/nl/dev/development' },
+                                { text: 'Bijdragen', link: '/nl/dev/contributing' }
+                            ]
+                        }
+                    ]
                 },
-            },
+            }
         },
-    },
-
-    themeConfig: {
-        socialLinks: [{ icon: 'github', link: 'https://github.com/blokmap' }],
-
-        sidebar: {
-            '/developers/': [
-                {
-                    text: 'Getting Started',
-                    items: [
-                        { text: 'Introduction', link: '/developers/' },
-                        { text: 'Quick Setup', link: '/developers/setup' },
-                        { text: 'Architecture Overview', link: '/developers/architecture' }
-                    ]
-                },
-                {
-                    text: 'Frontend Development',
-                    items: [
-                        { text: 'Overview', link: '/developers/frontend/' },
-                        { text: 'Setup & Installation', link: '/developers/frontend/setup' },
-                        { text: 'Code Style Guide', link: '/developers/frontend/code-style' },
-                        { text: 'Component Guidelines', link: '/developers/frontend/components' },
-                        { text: 'State Management', link: '/developers/frontend/state' },
-                        { text: 'Testing', link: '/developers/frontend/testing' }
-                    ]
-                },
-                {
-                    text: 'Backend Development',
-                    items: [
-                        { text: 'Overview', link: '/developers/backend/' },
-                        { text: 'Setup & Installation', link: '/developers/backend/setup' },
-                        { text: 'Code Style Guide', link: '/developers/backend/code-style' },
-                        { text: 'API Design', link: '/developers/backend/api' },
-                        { text: 'Database', link: '/developers/backend/database' },
-                        { text: 'Authentication', link: '/developers/backend/auth' },
-                        { text: 'Testing', link: '/developers/backend/testing' }
-                    ]
-                },
-                {
-                    text: 'Deployment',
-                    items: [
-                        { text: 'Overview', link: '/developers/deploy/' },
-                        { text: 'Environment Setup', link: '/developers/deploy/environment' },
-                        { text: 'CI/CD Pipeline', link: '/developers/deploy/pipeline' },
-                        { text: 'Production Deployment', link: '/developers/deploy/production' },
-                        { text: 'Monitoring', link: '/developers/deploy/monitoring' }
-                    ]
-                }
-            ]
+        en: {
+            label: 'English',
+            lang: 'en',
+            themeConfig: {
+                nav: [
+                    { text: 'Documentation', link: '/en/' }
+                ],
+            }
         },
     },
 });

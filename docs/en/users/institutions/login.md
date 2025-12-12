@@ -1,3 +1,0 @@
-# Login
-
-## Requesting institutional login
