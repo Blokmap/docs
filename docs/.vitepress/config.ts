@@ -5,11 +5,11 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     title: 'Blokmap Docs',
     description: 'Documentation for Blokmap',
-    base: "/docs/",
-    
+    base: '/docs/',
+
     // Redirect root to Dutch docs by default
     rewrites: {
-        'index.md': 'nl/index.md'
+        'index.md': 'nl/index.md',
     },
 
     locales: {
@@ -21,7 +21,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Home', link: '/en' },
                     { text: 'User Manual', link: '/en/users/' },
-                    { text: 'Developer Docs', link: '/developers/' }
+                    { text: 'Developer Docs', link: '/developers/' },
                 ],
 
                 sidebar: {
@@ -30,14 +30,20 @@ export default defineConfig({
                             text: 'Getting Started',
                             items: [
                                 { text: 'Introduction', link: '/en/users/' },
-                                { text: 'Account Setup', link: '/en/users/getting-started' }
-                            ]
+                                { text: 'Account Setup', link: '/en/users/getting-started' },
+                            ],
                         },
                         {
                             text: 'For Students',
                             items: [
-                                { text: 'Finding Locations', link: '/en/users/individuals/locations' },
-                                { text: 'Making Reservations', link: '/en/users/individuals/reservations' },
+                                {
+                                    text: 'Finding Locations',
+                                    link: '/en/users/individuals/locations',
+                                },
+                                {
+                                    text: 'Making Reservations',
+                                    link: '/en/users/individuals/reservations',
+                                },
                                 { text: 'Managing Profile', link: '/en/users/individuals/profile' },
                             ],
                         },
@@ -45,14 +51,20 @@ export default defineConfig({
                             text: 'For Authorities',
                             items: [
                                 { text: 'Managing Members', link: '/en/users/authorities/members' },
-                                { text: 'Managing Locations', link: '/en/users/authorities/locations' },
+                                {
+                                    text: 'Managing Locations',
+                                    link: '/en/users/authorities/locations',
+                                },
                             ],
                         },
                         {
                             text: 'For Institutions',
                             items: [
                                 { text: 'Institution Login', link: '/en/users/institutions/login' },
-                                { text: 'System Administration', link: '/en/users/institutions/admin' }
+                                {
+                                    text: 'System Administration',
+                                    link: '/en/users/institutions/admin',
+                                },
                             ],
                         },
                     ],
@@ -67,7 +79,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Home', link: '/nl' },
                     { text: 'Gebruikershandleiding', link: '/nl/users/' },
-                    { text: 'Ontwikkelaarsdocs', link: '/developers/' }
+                    { text: 'Ontwikkelaarsdocs', link: '/developers/' },
                 ],
 
                 sidebar: {
@@ -76,14 +88,20 @@ export default defineConfig({
                             text: 'Aan de slag',
                             items: [
                                 { text: 'Introductie', link: '/nl/users/' },
-                                { text: 'Account aanmaken', link: '/nl/users/getting-started' }
-                            ]
+                                { text: 'Account aanmaken', link: '/nl/users/getting-started' },
+                            ],
                         },
                         {
                             text: 'Voor Studenten',
                             items: [
-                                { text: 'Locaties zoeken', link: '/nl/users/individuals/locations' },
-                                { text: 'Reservaties maken', link: '/nl/users/individuals/reservations' },
+                                {
+                                    text: 'Locaties zoeken',
+                                    link: '/nl/users/individuals/locations',
+                                },
+                                {
+                                    text: 'Reservaties maken',
+                                    link: '/nl/users/individuals/reservations',
+                                },
                                 { text: 'Profiel beheren', link: '/nl/users/individuals/profile' },
                             ],
                         },
@@ -91,14 +109,17 @@ export default defineConfig({
                             text: 'Voor Authoriteiten',
                             items: [
                                 { text: 'Leden beheren', link: '/nl/users/authorities/members' },
-                                { text: 'Locaties beheren', link: '/nl/users/authorities/locations' },
+                                {
+                                    text: 'Locaties beheren',
+                                    link: '/nl/users/authorities/locations',
+                                },
                             ],
                         },
                         {
                             text: 'Voor Instituties',
                             items: [
                                 { text: 'Institutie login', link: '/nl/users/institutions/login' },
-                                { text: 'Systeembeheer', link: '/nl/users/institutions/admin' }
+                                { text: 'Systeembeheer', link: '/nl/users/institutions/admin' },
                             ],
                         },
                     ],
@@ -117,8 +138,8 @@ export default defineConfig({
                     items: [
                         { text: 'Introduction', link: '/developers/' },
                         { text: 'Quick Setup', link: '/developers/setup' },
-                        { text: 'Architecture Overview', link: '/developers/architecture' }
-                    ]
+                        { text: 'Architecture Overview', link: '/developers/architecture' },
+                    ],
                 },
                 {
                     text: 'Frontend Development',
@@ -128,8 +149,8 @@ export default defineConfig({
                         { text: 'Code Style Guide', link: '/developers/frontend/code-style' },
                         { text: 'Component Guidelines', link: '/developers/frontend/components' },
                         { text: 'State Management', link: '/developers/frontend/state' },
-                        { text: 'Testing', link: '/developers/frontend/testing' }
-                    ]
+                        { text: 'Testing', link: '/developers/frontend/testing' },
+                    ],
                 },
                 {
                     text: 'Backend Development',
@@ -140,8 +161,8 @@ export default defineConfig({
                         { text: 'API Design', link: '/developers/backend/api' },
                         { text: 'Database', link: '/developers/backend/database' },
                         { text: 'Authentication', link: '/developers/backend/auth' },
-                        { text: 'Testing', link: '/developers/backend/testing' }
-                    ]
+                        { text: 'Testing', link: '/developers/backend/testing' },
+                    ],
                 },
                 {
                     text: 'Deployment',
@@ -150,10 +171,10 @@ export default defineConfig({
                         { text: 'Environment Setup', link: '/developers/deploy/environment' },
                         { text: 'CI/CD Pipeline', link: '/developers/deploy/pipeline' },
                         { text: 'Production Deployment', link: '/developers/deploy/production' },
-                        { text: 'Monitoring', link: '/developers/deploy/monitoring' }
-                    ]
-                }
-            ]
+                        { text: 'Monitoring', link: '/developers/deploy/monitoring' },
+                    ],
+                },
+            ],
         },
     },
 });

@@ -39,9 +39,9 @@ npm run dev:frontend
 
 ## Verification
 
-- Backend API: http://localhost:3000
-- Frontend app: http://localhost:5173
-- Database admin: http://localhost:5432
+- Backend API: http://127.0.0.1:3000
+- Frontend app: http://127.0.0.1:5173
+- Database admin: http://127.0.0.1:5432
 
 ## Next Steps
 
