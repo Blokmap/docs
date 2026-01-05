@@ -7,6 +7,8 @@ export default defineConfig({
     base: '/docs',
 
     themeConfig: {
+        logo: '/logo.svg',
+
         socialLinks: [
             {
                 icon: 'github',
@@ -21,10 +23,21 @@ export default defineConfig({
             lang: 'nl',
             themeConfig: {
                 nav: [
-                    { text: 'Studenten', link: '/nl/user/students/' },
-                    { text: 'Locaties', link: '/nl/user/locations/' },
-                    { text: 'Instellingen', link: '/nl/user/institutions/' },
-                    { text: 'Ontwikkelaars', link: '/nl/dev/' },
+                    {
+                        text: 'Studenten',
+                        link: '/nl/user/students/',
+                    },
+                    {
+                        text: 'Beheerders',
+                        items: [
+                            { text: 'Locatiebeheerders', link: '/nl/user/locations/' },
+                            { text: 'Organisatiebeheerders', link: '/nl/user/institutions/' },
+                        ],
+                    },
+                    {
+                        text: 'Ontwikkelaars',
+                        link: '/nl/dev/',
+                    },
                 ],
 
                 sidebar: {
@@ -119,7 +132,7 @@ export default defineConfig({
                             items: [
                                 { text: 'Overzicht', link: '/nl/user/institutions/' },
                                 {
-                                    text: 'Instellingstypes',
+                                    text: 'Organisatietypes',
                                     link: '/nl/user/institutions/institution-types',
                                 },
                             ],
@@ -163,7 +176,7 @@ export default defineConfig({
                                     link: '/nl/user/institutions/authorities',
                                 },
                                 {
-                                    text: 'Instellingstoegang',
+                                    text: 'Toegang beheren',
                                     link: '/nl/user/institutions/institution-access',
                                 },
                             ],
