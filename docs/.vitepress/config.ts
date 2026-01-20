@@ -4,7 +4,13 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/default-theme-config
 export default defineConfig({
     title: 'Blokmap',
-    base: '/docs',
+    base: '/',
+
+	vite: {
+		server: {
+			allowedHosts: [".dev.blokmap.io"]
+		}
+	},
 
     themeConfig: {
         logo: '/logo.svg',
