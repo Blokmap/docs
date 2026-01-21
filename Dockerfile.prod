@@ -9,4 +9,6 @@ RUN npm install
 
 COPY . .
 
-CMD [ "npm", "run", "docs:build" ]
+RUN npm run docs:build
+
+CMD cp -r ./docs/.vitepress/dist/* "${OUTPUT_DIR:-/well-known}/"
