@@ -1,4 +1,4 @@
-# Locatie instellen
+# Instellingen
 
 Hier kun je de instellingen aanpassen die je eerder hebt geconfigureerd tijdens de creatie van de locatie. Navigeer in het dashboard naar het instellingen menu voor je locatie.
 

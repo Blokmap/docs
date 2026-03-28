@@ -69,7 +69,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     ],
                 },
                 {
-                    text: 'Locatie instellen',
+                    text: 'Instellingen',
                     link: '/user/locations/settings/',
                     items: [
                         { text: 'Overzicht', link: '/user/locations/settings/general' },
