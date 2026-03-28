@@ -83,7 +83,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                 {
                     text: 'Openingstijden',
                     items: [
-                        { text: 'Kalender', link: '/user/locations/openings/' },
+                        { text: 'Enkele openingstijden', link: '/user/locations/openings/' },
                         {
                             text: 'Herhalende openingstijden',
                             link: '/user/locations/openings/repeating',

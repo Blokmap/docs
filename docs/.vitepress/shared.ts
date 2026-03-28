@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 export const shared = defineConfig({
     title: 'Blokmap',
     base: '/',
+    head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
 
     vite: {
         server: {
