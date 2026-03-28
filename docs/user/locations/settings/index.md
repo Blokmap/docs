@@ -4,7 +4,7 @@ Hier kun je de instellingen aanpassen die je eerder hebt geconfigureerd tijdens 
 
 ![Afbeelding: Locatie van de locatie-instellingen](../assets/location-dashboard-settings-indication.png)
 
-Hieronder vind je alle specifieke aspecten die je kunt beheren. Deze kun je direct in de zijbalk terugvinden of hieronder aanklikken.
+Hieronder vind je alle specifieke aspecten die je kunt beheren.
 
 - [Algemene gegevens](./general.md)
 - [Afbeeldingen](./images.md)

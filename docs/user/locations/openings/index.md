@@ -1,4 +1,4 @@
-# Kalender & Enkele tijden
+# Enkele openingstijden
 
 Op het locatie-dashboard beheer je eenvoudig de specifieke openingstijden via een ingebouwde, overzichtelijke kalender-interface. Dit is bedoeld voor het vastleggen van de dagen en uren waarop je locatie geopend is.
 
