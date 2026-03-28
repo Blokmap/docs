@@ -4,6 +4,8 @@
 Nieuwe bloklocaties moeten na aanmaak altijd eerst worden goedgekeurd door een Blokmap-beheerder. Zo voorkomen we misbruik van het platform. Meestal duurt dit maximaal een paar uur.
 :::
 
+## Locatie-wizard
+
 Met de locatie-wizard maak je snel en eenvoudig een nieuwe locatie aan. Je wordt stap voor stap begeleid bij het invullen van de basisinformatie voor je nieuwe bloklocatie.
 
 Je kan de wizard makkelijk openen via de sidebar wanneer je op het menu rechtsboven in de navigatiebalk klikt:

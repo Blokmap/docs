@@ -1,9 +1,25 @@
-# Rollen en Permissies
+# Rollen en Rechten
 
-Wanneer je beheerders toevoegt, wil je vermoedelijk niet iedereen alle rechten over een locatie geven (bijv: het niet toestaan dat een onervaren hulp alle openingstijden kan wissen).
+Elke locatiebeheerder kan een optionele rol krijgen toegewezen. Op de rollen-pagina zie je een overzicht van alle beschikbare rollen voor jouw locatie.
 
-[SCREENSHOT_PLACEHOLDER: Screenshot of custom roles mapping and permissions panel]
+![Afbeelding: Rollen overzicht](../assets/location-roles.png)
 
-Hiervoor kun je werken met zogenaamde rollen (Roles).
-- **Rollen toewijzen:** Delegeer gebruikers naar één (of meerdere) groepen met bepaalde bevoegdheden.
-- **Rollen personaliseren:** Je hoeft het niet bij standaard administratierollen te houden. Wijzig een specifiek niveau, geef er unieke namen aan vast, wijs een kleur in het systeem toe en vink zeer fijnmazig ("granular") aan welk permissieniveau deze rol specifiek wel (en niet) aankan - bijvoorbeeld wie QR-codes mag genereren ten opzichte van de manager die openingstijden op de kalender mag zetten.
+Vanuit dit overzicht kun je eenvoudig rollen beheren. Wanneer je een rol verwijdert, wordt deze rol automatisch verwijderd bij iedereen (elke beheerder) die deze rol op dat moment had toegewezen gekregen.
+
+:::tip Belangrijk
+Elke locatie heeft `Admin` als standaardrol. Deze rol kan niet verwijderd of aangepast worden.
+:::
+
+## Een nieuwe rol aanmaken
+
+Via de knop rechtsboven kun je, vergelijkbaar met het beheerdersoverzicht, een nieuwe rol toevoegen. In het dialoogvenster voor rollen kun je de volgende zaken instellen:
+
+- **Naam**: Een duidelijke en herkenbare naam voor de rol.
+- **Badgekleur**: Een kleur om de rol snel visueel te herkennen in het beheerdersoverzicht.
+- **Rechten**: De specifieke permissies die aan deze rol gekoppeld worden.
+
+![Afbeelding: Rol toevoegen](../assets/location-roles-dialog.png)
+
+::: info Work in progress
+Het systeem voor de gedetailleerde (daadwerkelijke) rechten wordt momenteel herwerkt en is voorlopig nog _work in progress_.
+:::

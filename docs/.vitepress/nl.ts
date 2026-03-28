@@ -98,13 +98,17 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                             link: '/user/locations/reservations/',
                         },
                         { text: 'Aanwezigheden', link: '/user/locations/reservations/qr-codes' },
+                        {
+                            text: 'Strafpunten',
+                            link: '/user/locations/reservations/penalty-points',
+                        },
                     ],
                 },
                 {
                     text: 'Toegangsbeheer',
                     items: [
                         { text: 'Beheerders', link: '/user/locations/access/' },
-                        { text: 'Rollen', link: '/user/locations/access/roles' },
+                        { text: 'Rollen & Rechten', link: '/user/locations/access/roles' },
                     ],
                 },
             ],

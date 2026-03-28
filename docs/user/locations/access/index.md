@@ -1,11 +1,28 @@
-# Beheerders delen (Toegangsbeheer)
+# Toegangsbeheer
 
-Je hoeft het locatiebeheer niet allemaal zelf te doen. Vaak is het handig als ook andere leden of bewakers van de studeerplekken rechten hebben in het Blokmap dashboard.
+Op de pagina voor toegangsbeheer krijg je een duidelijk overzicht van alle locatiebeheerders en hun bijbehorende rollen (met de bijpassende rechten). Vanuit dit overzicht is het eenvoudig om het beheer van je locatie te regelen.
 
-[SCREENSHOT_PLACEHOLDER: Screenshot of the interface adding a user by Blokmap account]
+![Afbeelding: Beheerders overzicht](../assets/location-managers.png)
 
-Met toegangsbeheer (Access Control) wijs je op het niveau van een specifieke locatie beheerders toe doormiddel van hun persoonlijk Blokmap-account. 
-- Je kunt gebruikers permanent of tijdelijk toevoegen of verwijderen.
-- *Tip: Als je locatie onderdeel is van een grotere overkoepelende organisatie dan is het via de organisatie-instellingen ook mogelijk om in één klap meerdere personen op institutioneel niveau toegang tot een locatie-groep te verlenen.*
+## Beheerders toevoegen, aanpassen en verwijderen
 
-**(Let op: Deze instelling regelt logischerwijs louter wie de locatie effectief mag besturen qua applicatie backend, en heeft géén invloed op studenten die een reservatie op desbetreffende locatie willen maken.)**
+Vanaf het overzicht kun je moeiteloos nieuwe personen als beheerder toevoegen. Via de knop rechtsboven open je een dialoogvenster:
+
+1. **Zoeken**: Je kunt direct zoeken op de gebruikersnaam van de persoon binnen Blokmap.
+2. **Rol toewijzen**: Ken direct een specifieke rol toe, of laat dit veld leeg als je de persoon later een rol wil geven.
+
+![Afbeelding: Beheerder toevoegen](../assets/location-managers-dialog.png)
+
+Het is vanuit het overzicht ook eenvoudig om iemand weer uit het beheer te verwijderen, alsook hun rol aan te passen.
+
+::: warning Rechten vereist
+Je kunt alleen andere beheerders toevoegen of verwijderen als je eigen rechten of rol dit toelaten.
+:::
+
+## Externe beheerders (Organisaties)
+
+Wanneer je locatie onder een overkoepelende organisatie (bv. een onderwijsinstelling) valt, hebben alle beheerders van die organisatie automatisch ook toegang tot jouw specifieke locatie.
+
+Je kunt deze informatie raadplegen in het dropdown-menu **Externe beheerders**. Hier zie je de betreffende organisatie waar de locatie onder valt. Indien je zelf beheerder bent van deze organisatie, kan je verder doorklikken om de gebruikers te zien die de rechten op deze locatie overerven via de organisatie in kwestie.
+
+![Afbeelding: Externe beheerders](../assets/location-managers-external.png)

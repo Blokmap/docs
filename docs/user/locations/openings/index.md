@@ -2,10 +2,23 @@
 
 Op het locatie-dashboard beheer je eenvoudig de specifieke openingstijden via een ingebouwde, overzichtelijke kalender-interface. Dit is bedoeld voor het vastleggen van de dagen en uren waarop je locatie geopend is.
 
-[SCREENSHOT_PLACEHOLDER: Screenshot of the calendar view for opening times]
+![Afbeelding: Overzicht van de kalender](../assets/location-openings.png)
 
-Vanaf de kalender is openen heel simpel:
-1. **Dagen & Tijden Toevoegen:** Navigeer naar de juiste dag in de kalender en voeg een nieuwe set van start- en eindtijden toe voor een nieuw openingsmoment.
-2. **Capaciteit overschrijven:** Indien je op een specifieke dag door omstandigheden mínder of juist méér zitplaatsen ter beschikking stelt dan de standaard capaciteit van de locatie, kun je de stoelen voor één specifieke openingstijd overschrijven.
+## Openingsuren toevoegen
 
-Dankzij de kalender zie je direct op welke dagen de locatie gesloten is (wanneer er geen openingstijden ingepland zijn) en is het makkelijk bij te sturen!
+Je kunt een tijdslot in deze kalender aanklikken om het dialoogvenster te openen voor het aanmaken van een nieuwe openingstijd. In dit dialoogvenster wordt de starttijd van het slot waarop je hebt geklikt automatisch toegevoegd.
+
+Je kunt de volgende instellingen aanpassen:
+
+- **Dag, start- en eindtijd**
+- **Zitplaatsen overschrijven**: Standaard is het aantal geconfigureerde zitplaatsen voor de locatie vooraf ingevuld. Je kan dit desgewenst voor deze openingstijd hier aanpassen.
+
+![Afbeelding: Dialoogvenster voor openingsuren](../assets/location-openings-dialog.png)
+
+::: tip Reservaties per blok
+Wanneer je voor je locatie **reservaties** hebt ingeschakeld, functioneert elke afzonderlijke openingstijd-blok als één te reserveren tijdslot. Wil je bijvoorbeeld dat studenten per 2 uur reserveren in plaats van één aaneengesloten periode van 8 uur? Maak dan meerdere afzonderlijke openingstijden (blokken van 2 uur) op één dag aan in plaats van één grote blok.
+:::
+
+## Openingsuren aanpassen of verwijderen
+
+Het verwijderen en aanpassen van een openingstijd kan eenvoudig gebeuren door in de kalender op een bestaande openingstijd te klikken. Hier kun je vervolgens de dag, uren en de beschikbare plaatsen bewerken.
