@@ -115,7 +115,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
             '/user/institutions/': [
                 {
                     text: 'Aan de slag',
-                    items: [{ text: 'Overzicht', link: '/user/institutions/' }],
+                    items: [{ text: 'Dashboard & Overzicht', link: '/user/institutions/' }],
                 },
                 {
                     text: 'Locaties',

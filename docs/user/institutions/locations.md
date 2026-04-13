@@ -1,19 +1,25 @@
 # Locaties beheren
 
-Op deze pagina beheer je de locaties die aan jouw organisatie zijn gekoppeld.
+Op deze pagina beheer je de locaties die aan een organisatie zijn gekoppeld.
+Via de zoekbalk kan je zoeken op naam en/of omschrijving van de locatie,
+of je kan via het dropdownmenu filteren op de status van de locatie.
 
-## Locatie koppelen of aanmaken
+![Afbeelding: Lijst van gekoppelde locaties](./assets/organisatie-locaties.png)
 
-Wanneer je een locatie aanmaakt, kan je die (indien je organisatiebeheerder bent) koppelen onder je organisatie.
+Door op een locatie te klikken kom je terecht op het [locatiedashboard](/user/locations/dashboard-overview#locatiedashboard)
 
-::: tip
-Ben je ook locatiebeheerder? Dan vind je meer detail over locatie-instellingen onder [Locatiebeheerders](/user/locations/).
+## Locaties Aanmaken
+
+Vanuit deze pagina kan je direct locaties onder een organisatie aanmaken door op de plus-knop rechtsboven te drukken.
+Meer uitleg hierover vind je op de pagina over [locaties aanmaken](/user/locations).
+
+## Locaties koppelen <Badge type="danger" text="TODO" />
+
+Indien je ook beheerder van een locatie bent die nog niet onder een organisatie valt,
+kan je deze ook koppelen via die TODO knop.
+Hiermee komt de locatie
+
+::: danger
+Als de organisatie bepaalde restricties heeft over wie er kan reserveren kan het
+zijn dat bestaande reservaties op deze locatie geannuleerd worden.
 :::
-
-## Overzicht en beheer
-
-Vanuit het locaties-overzicht kan je doorgaans:
-
-- gekoppelde locaties openen
-- koppelingen aanpassen
-- (afhankelijk van je rol) locaties beheren of doorverwijzen naar de juiste beheerder
