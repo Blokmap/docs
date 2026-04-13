@@ -11,7 +11,8 @@ Je kunt een tijdslot in deze kalender aanklikken om het dialoogvenster te openen
 Je kunt de volgende instellingen aanpassen:
 
 - **Dag, start- en eindtijd**
-- **Zitplaatsen overschrijven**: Standaard is het aantal geconfigureerde zitplaatsen voor de locatie vooraf ingevuld. Je kan dit desgewenst voor deze openingstijd hier aanpassen.
+- **Reservatieperiode**: Je kan instellen vanaf/tot **wanneer** mensen reservaties kunnen maken voor de openingstijd.
+- **Zitplaatsen**: Standaard is het aantal geconfigureerde zitplaatsen voor de locatie vooraf ingevuld. Je kan dit desgewenst voor deze openingstijd hier aanpassen.
 
 ![Afbeelding: Dialoogvenster voor openingsuren](../assets/location-openings-dialog.png)
 

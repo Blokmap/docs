@@ -115,43 +115,31 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
             '/user/institutions/': [
                 {
                     text: 'Aan de slag',
-                    items: [
-                        { text: 'Overzicht', link: '/user/institutions/' },
-                        {
-                            text: 'Organisatietypes',
-                            link: '/user/institutions/institution-types',
-                        },
-                    ],
+                    items: [{ text: 'Overzicht', link: '/user/institutions/' }],
                 },
                 {
                     text: 'Locaties',
                     items: [
                         {
                             text: 'Locaties beheren',
-                            link: '/user/institutions/managing-locations',
-                        },
-                        {
-                            text: 'Openingstijden',
-                            link: '/user/institutions/openings',
+                            link: '/user/institutions/locations',
                         },
                     ],
                 },
                 {
-                    text: 'Reservaties',
+                    text: 'Leden',
                     items: [
                         {
-                            text: 'Reservaties beheren',
-                            link: '/user/institutions/managing-reservations',
+                            text: 'Leden beheren',
+                            link: '/user/institutions/members',
                         },
                     ],
                 },
                 {
-                    text: 'Toegang',
+                    text: 'Toegangsbeheer',
                     items: [
-                        {
-                            text: 'Toegangscontrole',
-                            link: '/user/institutions/access-control',
-                        },
+                        { text: 'Beheerders', link: '/user/institutions/access/' },
+                        { text: 'Rollen & Rechten', link: '/user/institutions/access/roles' },
                     ],
                 },
                 {

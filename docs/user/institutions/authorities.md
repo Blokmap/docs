@@ -1,33 +1,13 @@
-# Groepen
+# Groepen beheren
 
-## Wat zijn groepen?
+Groepen (bv. afdelingen, teams of campussen) helpen om toegang en beheer binnen een organisatie overzichtelijk te houden.
 
-### Definitie en doel
+## Groep aanmaken
 
-### Voordelen
+Maak een nieuwe groep aan en geef ze een duidelijke naam, zodat je later gemakkelijk toegang kan toekennen.
 
-## Groepen aanmaken
+## Groep beheren
 
-### Groep instellen
+Beheer groepsleden en pas instellingen aan wanneer de organisatie-structuur wijzigt.
 
-### Hiërarchie
-
-## Groeptypes
-
-### Departement-gebaseerd
-
-### Cursus-gebaseerd
-
-### Jaar/klas-gebaseerd
-
-## Groepsleden beheren
-
-### Leden toevoegen
-
-### Bulkimport
-
-## Groepspermissies
-
-### Locatietoegang
-
-### Reservatiepermissies
+Lees ook: [Toegang beheren](./institution-access.md)

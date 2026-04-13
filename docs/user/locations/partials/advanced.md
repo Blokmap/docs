@@ -5,5 +5,4 @@ Er zijn een aantal belangrijke instellingen beschikbaar om de logica en het gedr
 - **Zichtbaarheid**: Kies of je de locatie direct na aanmaak (en na goedkeuring door een administrator) openbaar wilt maken voor het publiek of tijdelijk wilt verbergen gedurende sluitingsperiodes.
 
 - **Reserveerbaarheid**: Bepaal of studenten voor deze locatie een plek moeten reserveren.
-    - **Reserveringsperiode**: Stel de tijdvensters in vanaf wanneer een plek gereserveerd kan worden. Standaard is dit vanaf zeven dagen voor aanvang tot het moment van aanvang zelf.
     - **Aanmeldperiode**: Stel de marges of het tijdsvenster in waarin studenten ter plekke hun aanwezigheid moeten bevestigen (bijvoorbeeld via een QR-code). Standaard kan dit vanaf 30 minuten vóór tot 30 minuten ná de start van de reservering.

@@ -1,10 +1,10 @@
 # Locatie aanmaken
 
+## Locatie-wizard
+
 ::: info
 Nieuwe bloklocaties moeten na aanmaak altijd eerst worden goedgekeurd door een Blokmap-beheerder. Zo voorkomen we misbruik van het platform. Meestal duurt dit maximaal een paar uur.
 :::
-
-## Locatie-wizard
 
 Met de locatie-wizard maak je snel en eenvoudig een nieuwe locatie aan. Je wordt stap voor stap begeleid bij het invullen van de basisinformatie voor je nieuwe bloklocatie.
 
@@ -20,16 +20,6 @@ De wizard zelf bestaat uit 3 stappen, waar we vragen de algemene informatie (oa.
 
 ![Afbeelding: Locatiewizard](./assets/location-wizard.png)
 
-## 1. Overzicht
-
-<!--@include: ./partials/general.md-->
-
-## 2. Afbeeldingen
-
-<!--@include: ./partials/images.md-->
-
-## 3. Algemene instellingen
-
-<!--@include: ./partials/advanced.md-->
+Lees meer over het configureren van een bloklocatie op [deze pagina](./settings/).
 
 Na het aanmaken van een nieuwe locatie heb je meteen toegang tot het [locatiedashboard](./dashboard-overview.md), waar je de locatie verder kan instellen (o.a. **openingsuren** en **toegangscontrole**).
