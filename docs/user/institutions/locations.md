@@ -6,12 +6,12 @@ of je kan via het dropdownmenu filteren op de status van de locatie.
 
 ![Afbeelding: Lijst van gekoppelde locaties](./assets/organisatie-locaties.png)
 
-Door op een locatie te klikken kom je terecht op het [locatiedashboard](/user/locations/dashboard-overview#locatiedashboard)
+Door op een locatie te klikken kom je terecht op het [locatiedashboard](/user/locations/location-dashboard#locatiedashboard)
 
 ## Locaties Aanmaken
 
 Vanuit deze pagina kan je direct locaties onder een organisatie aanmaken door op de plus-knop rechtsboven te drukken.
-Meer uitleg hierover vind je op de pagina over [locaties aanmaken](/user/locations).
+Meer uitleg hierover vind je op de pagina over [locaties aanmaken](/user/locations/index).
 
 ## Locaties koppelen <Badge type="danger" text="TODO" />
 
