@@ -63,8 +63,8 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Locatie aanmaken', link: '/user/locations/' },
                         {
-                            text: 'Dashboard & Overzicht',
-                            link: '/user/locations/dashboard-overview',
+                            text: 'Dashboard',
+                            link: '/user/locations/institution-dashboard',
                         },
                     ],
                 },
@@ -127,6 +127,23 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     ],
                 },
                 {
+                    text: 'Locatiegroepen',
+                    items: [
+                        {
+                            text: 'Overzicht',
+                            link: '/user/institutions/authorities/',
+                        },
+                        {
+                            text: 'Groepen beheren',
+                            link: '/user/institutions/authorities/authority-dashboard',
+                        },
+                        {
+                            text: 'Rollen & Rechten',
+                            link: '/user/institutions/authorities/authority-roles',
+                        },
+                    ],
+                },
+                {
                     text: 'Leden',
                     items: [
                         {
@@ -140,19 +157,6 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Beheerders', link: '/user/institutions/access/' },
                         { text: 'Rollen & Rechten', link: '/user/institutions/access/roles' },
-                    ],
-                },
-                {
-                    text: 'Groepen',
-                    items: [
-                        {
-                            text: 'Groepen beheren',
-                            link: '/user/institutions/authorities',
-                        },
-                        {
-                            text: 'Toegang beheren',
-                            link: '/user/institutions/institution-access',
-                        },
                     ],
                 },
             ],

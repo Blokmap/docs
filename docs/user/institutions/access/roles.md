@@ -1,16 +1,15 @@
 # Rollen & Rechten
 
-Rollen bepalen welke acties een beheerder binnen de organisatie kan uitvoeren.
+:::tip
+Rollen voor organisaties werken op exact dezelfde manier als bij locaties, met het enige verschil dat er extra permissies zijn die je kunt toewijzen aan een rol.
+:::
 
-## Rollen
+Binnen organisaties kan je, net zoals bij [locaties](../../locations/access/roles.md), de rollen beheren die je wilt geven aan een beheerder.
 
-Gebruik rollen om consistent rechten toe te kennen (bv. enkel ledenbeheer, of volledige beheerrechten).
+![Afbeelding: Overzicht van rollen](../assets/institution-roles.png)
 
-## Rechten
+Voor verdere informatie omtrent rollen en rechten verwijzen we naar de documentatie over [rollen en rechten op locaties](../../locations/access/roles.md).
 
-Rechten sturen o.a. of je:
-
-- beheerders kan toevoegen/verwijderen
-- leden kan beheren
-- locaties kan koppelen of beheren
-- groepen en toegang kan beheren
+::: info Work in progress
+Het systeem voor de gedetailleerde (daadwerkelijke) rechten wordt momenteel herwerkt en is voorlopig nog _work in progress_.
+:::

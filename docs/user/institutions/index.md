@@ -12,8 +12,9 @@ Als **organisatiebeheerder** beheer je een overkoepelende organisatie (bv. een o
 - [Locaties beheren](./locations.md)
 - [Leden beheren](./members.md)
 - [Toegangsbeheer](./access/)
-- [Groepen beheren](./authorities.md)
-- [Toegang beheren](./institution-access.md)
+- [Locatiegroepen overzicht](./authorities/)
+- [Groepen beheren](./authorities/authority-dashboard.md)
+- [Rollen & Rechten](./authorities/authority-roles.md)
 
 ::: info
 Organisaties kunnen gebruikt worden om beheer te centraliseren. In veel gevallen krijgen organisatiebeheerders automatisch toegang tot gekoppelde locaties.

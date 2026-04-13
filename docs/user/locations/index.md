@@ -22,4 +22,4 @@ De wizard zelf bestaat uit 3 stappen, waar we vragen de algemene informatie (oa.
 
 Lees meer over het configureren van een bloklocatie op [deze pagina](./settings/).
 
-Na het aanmaken van een nieuwe locatie heb je meteen toegang tot het [locatiedashboard](./dashboard-overview.md), waar je de locatie verder kan instellen (o.a. **openingsuren** en **toegangscontrole**).
+Na het aanmaken van een nieuwe locatie heb je meteen toegang tot het [locatiedashboard](./location-dashboard.md), waar je de locatie verder kan instellen (o.a. **openingsuren** en **toegangscontrole**).
