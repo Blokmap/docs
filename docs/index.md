@@ -7,9 +7,9 @@ hero:
     tagline: Vind de perfecte bloklocatie, beheer je eigen bloklocaties en organisaties
 
 features:
-    - icon: 🎓
-      title: Studenten (Binnenkort)
-      details: Vind en reserveer bloklocaties, beheer je reservaties en ontdek de beste plekken om te studeren.
+    # - icon: 🎓
+    #   title: Studenten (Binnenkort)
+    #   details: Vind en reserveer bloklocaties, beheer je reservaties en ontdek de beste plekken om te studeren.
     - icon: 📍
       title: Locatiebeheerders
       details: Dien je locatie in, beheer openingstijden, reservaties en toegangscontrole

@@ -63,8 +63,8 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Locatie aanmaken', link: '/user/locations/' },
                         {
-                            text: 'Dashboard & Overzicht',
-                            link: '/user/locations/dashboard-overview',
+                            text: 'Dashboard',
+                            link: '/user/locations/institution-dashboard',
                         },
                     ],
                 },
@@ -115,56 +115,48 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
             '/user/institutions/': [
                 {
                     text: 'Aan de slag',
-                    items: [
-                        { text: 'Overzicht', link: '/user/institutions/' },
-                        {
-                            text: 'Organisatietypes',
-                            link: '/user/institutions/institution-types',
-                        },
-                    ],
+                    items: [{ text: 'Dashboard & Overzicht', link: '/user/institutions/' }],
                 },
                 {
                     text: 'Locaties',
                     items: [
                         {
                             text: 'Locaties beheren',
-                            link: '/user/institutions/managing-locations',
-                        },
-                        {
-                            text: 'Openingstijden',
-                            link: '/user/institutions/openings',
+                            link: '/user/institutions/locations',
                         },
                     ],
                 },
                 {
-                    text: 'Reservaties',
+                    text: 'Locatiegroepen',
                     items: [
                         {
-                            text: 'Reservaties beheren',
-                            link: '/user/institutions/managing-reservations',
+                            text: 'Overzicht',
+                            link: '/user/institutions/authorities/',
                         },
-                    ],
-                },
-                {
-                    text: 'Toegang',
-                    items: [
-                        {
-                            text: 'Toegangscontrole',
-                            link: '/user/institutions/access-control',
-                        },
-                    ],
-                },
-                {
-                    text: 'Groepen',
-                    items: [
                         {
                             text: 'Groepen beheren',
-                            link: '/user/institutions/authorities',
+                            link: '/user/institutions/authorities/authority-dashboard',
                         },
                         {
-                            text: 'Toegang beheren',
-                            link: '/user/institutions/institution-access',
+                            text: 'Rollen & Rechten',
+                            link: '/user/institutions/authorities/authority-roles',
                         },
+                    ],
+                },
+                {
+                    text: 'Leden',
+                    items: [
+                        {
+                            text: 'Leden beheren',
+                            link: '/user/institutions/members',
+                        },
+                    ],
+                },
+                {
+                    text: 'Toegangsbeheer',
+                    items: [
+                        { text: 'Beheerders', link: '/user/institutions/access/' },
+                        { text: 'Rollen & Rechten', link: '/user/institutions/access/roles' },
                     ],
                 },
             ],
