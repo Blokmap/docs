@@ -17,5 +17,5 @@ features:
     - icon: 🏛️
       title: Organisatiebeheerders
       details: Beheer meerdere locaties, groepen en toegang op organisatieniveau
-      link: /user/organisations/
+      link: /user/institutions/
 ---
