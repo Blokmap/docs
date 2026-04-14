@@ -61,21 +61,21 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                 {
                     text: 'Aan de slag',
                     items: [
-                        { text: 'Locatie aanmaken', link: '/user/locations/' },
                         {
-                            text: 'Dashboard',
-                            link: '/user/locations/institution-dashboard',
+                            text: 'Overzicht',
+                            link: '/user/locations/location-dashboard',
                         },
+                        { text: 'Locatie aanmaken', link: '/user/locations/' },
                     ],
                 },
                 {
                     text: 'Instellingen',
                     link: '/user/locations/settings/',
                     items: [
-                        { text: 'Overzicht', link: '/user/locations/settings/general' },
+                        { text: 'Algemeen', link: '/user/locations/settings/general' },
                         { text: 'Afbeeldingen', link: '/user/locations/settings/images' },
                         {
-                            text: 'Algemene instellingen',
+                            text: 'Geavanceerd',
                             link: '/user/locations/settings/advanced',
                         },
                     ],
