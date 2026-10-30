@@ -1,5 +1,7 @@
 # Algemene gegevens
 
-Via de instellingenpagina in het dashboard kun je de basisinformatie van je locatie beheren. Dit is de informatie die het meest zichtbaar is voor de buitenwereld.
+Open **Instellingen** op het locatiedashboard. De basisgegevens staan verdeeld over **Overzicht**, **Adres** en **Tags**.
 
 <!--@include: ../partials/general.md-->
+
+Bewaar de wijzigingen in het betreffende onderdeel en controleer daarna de publieke locatiepagina via **Preview**.

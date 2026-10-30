@@ -1,29 +1,33 @@
 # Aanwezigheid via QR-codes
 
-In de meeste gevallen willen we dat studenten zelfstandig hun aanwezigheid bevestigen wanneer ze op de locatie aankomen. Hiervoor biedt Blokmap de mogelijkheid om een unieke QR-code te genereren voor de locatie.
+Open **Aanwezigheid** op het locatiedashboard. Op **Check-in QR-codes** kan je een code voor een hele zone of afzonderlijke zitplaatsen vinden. Met QR-codes bevestigen studenten hun aanwezigheid (indien ingeschakeld op de respectievelijke [zone](../zones.md)).
 
-![Afbeelding: QR-codes instellen](../assets/location-reservations-qr.png)
+![Locatie QR-codes](/assets/location-qr-codes.png)
 
-## Hoe het werkt
+## QR-codes gebruiken
 
-Vanuit de QR-code pagina kun je eenvoudig een nieuwe locatie-specifieke QR-code genereren. Deze code kan je direct downloaden als een **SVG-bestand**. Deze digitale afbeelding kun je overal inzetten:
+1. Zoek de juiste zone.
+2. Kies **QR-code van de zone** voor een gedeelde code, of **Alle … zitplaatsen** voor codes per stoel.
+3. Download een **Sticker (PDF)** of de **QR-code** om ze ter plaatse te gebruiken.
 
-- Afgedrukt op een zelfgemaakte poster of infofolder bij de de ingang.
-- Weergegeven op een digitaal e-ink scherm of een tv-monitor op locatie.
+Bij een zone met afzonderlijke stoelcodes kan je labels per zitplaats of voor de hele zone downloaden. Plaats elk label bij de juiste zone of stoel. QR-codes (of stickers) kunnen ofwel gedownload worden als PDF of SVG. De SVG variant van QR-codes zijn handig indien je zelf posters wil ontwerpen of geen gebruik wilt maken van stickers.
 
-Mensen kunnen zich vervolgens met hun telefoon aanmelden door deze QR-code simpelweg te scannen op de locatie.
+### Live feed
 
-## Misbruik voorkomen en flexibiliteit
+Het is ook mogelijk om de QR-code van een zone op een groter dialoogvenster weer te geven. Dit kan handig zijn voor schermen op de locatie of wanneer een medewerker studenten aan de ingang laat inchecken. Het scherm toont in realtime wanneer een student de QR-code scant om zijn of haar reservatie te bevestigen, inclusief of het inchecken succesvol was.
 
-Regelmatig opduikend probleem is dat studenten een foto nemen van een QR-code om deze aan vrienden door te sturen. Blokmap biedt verscheidene tools en veel flexibiliteit om dit tegen te gaan:
+![Check-in live-feed](/assets/location-qr-codes-feed.png)
 
-- **Scan-venster instellen**: Het registreren via deze QR-codes werkt uitsluitend binnen een specifiek, afgebakend tijdslot. Dit "scan-venster" stel je in via de [geavanceerde instellingen](../settings/advanced.md) van de locatie.
-- **Geldigheidsperiode bepalen**: Bij de aanmaak van een nieuwe QR-code kun je precies definiëren per wanneer én tot wanneer deze mag werken (een start- en einddatum).
-- **QR-codes intrekken**: Merk je dat er misbruik is opgemerkt, of is de blokperiode voorbij? Via een druk op de knop in het QR-dashboard deactiveer (of invalideer) je meteen alle eerder gemaakte QR-codes voor jouw gebouw.
+## Geldigheid en instellingen
 
-### Gebruiksvoorbeelden
+De weergegeven labels tonen een begin- en einddatum. Via het tandwiel **Instellingen** open je de beschikbare code-instellingen. Controleer de geldigheid voordat je labels afdrukt en vervang verlopen codes op de locatie.
 
-Deze instellingen zorgen ervoor dat je zélf de toegangscontrole kan bouwen die past bij de flow van jouw locatie:
+![QR-code instellingen](/assets/location-qr-codes-settings.png)
 
-- **Veilige controle**: Plaats een medewerker aan de ingang van het gebouw die de QR-code toont op een tablet of scherm. Bezoekers kunnen na de inloopmomenten de controle niet meer proberen te misleiden.
-- **Postersysteem**: Hang doorheen het gebouw posters met de code. Maak de codes periodiek onklaar en druk wekelijks een andere QR-code af voor de posters.
+Schakel **Check-in via QR-code** in bij de [zone-instellingen](../zones) als bezoekers hun reservatie op deze manier moeten bevestigen.
+
+## Wat doet de student?
+
+De student scant de code met de camera-app op een smartphone of via **Open scanner** op het Blokmap-profiel. De student moet de check-in afronden en de succesmelding controleren. Zie de [studentengids voor check-in](/user/students/checking-in).
+
+Kan iemand niet inchecken, controleer dan de gebruikte zone of zitplaats, de reservatie en de geldigheid van de code. Pas een reservatiestatus alleen handmatig aan nadat je de aanwezigheid hebt gecontroleerd.

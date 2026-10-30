@@ -1,8 +1,14 @@
 # Enkele openingstijden
 
-Op het locatie-dashboard beheer je eenvoudig de specifieke openingstijden via een ingebouwde, overzichtelijke kalender-interface. Dit is bedoeld voor het vastleggen van de dagen en uren waarop je locatie geopend is.
+Via het locatie-dashboard beheer je eenvoudig de specifieke openingstijden via een kalender-interface.
 
-![Afbeelding: Overzicht van de kalender](../assets/location-openings.png)
+![Afbeelding: Overzicht van de kalender](/assets/location-openings.png)
+
+Openingsuren worden voortaan **per [zone](../zones.md)** beheerd. Indien de locatie met meerdere zones werkt, kan je daarom op deze pagina rechtsboven **de zone selecteren waarvoor je de openingstijden wil beheren**.
+
+![Zone selector voor openingstijden](/assets/location-openings-zone-selector.png)
+
+Indien de locatie zonder **extra** zones werkt (enkel de standaardzone bestaat), wordt deze selector niet getoond.
 
 ## Openingsuren toevoegen
 
@@ -11,13 +17,13 @@ Je kunt een tijdslot in deze kalender aanklikken om het dialoogvenster te openen
 Je kunt de volgende instellingen aanpassen:
 
 - **Dag, start- en eindtijd**
-- **Reservatieperiode**: Je kan instellen vanaf/tot **wanneer** mensen reservaties kunnen maken voor de openingstijd.
-- **Zitplaatsen**: Standaard is het aantal geconfigureerde zitplaatsen voor de locatie vooraf ingevuld. Je kan dit desgewenst voor deze openingstijd hier aanpassen.
+- **Reservatieperiode**: stel in vanaf/tot **wanneer** mensen reservaties kunnen maken voor de openingstijd.
+- **Herhalingspatronen**: maak snel meerdere openingstijden aan in één keer, verder uitgelegd in [herhalende openingstijden](./repeating.md).
 
-![Afbeelding: Dialoogvenster voor openingsuren](../assets/location-openings-dialog.png)
+![Afbeelding: Dialoogvenster voor openingsuren](/assets/location-openings-dialog.png)
 
-::: tip Reservaties per blok
-Wanneer je voor je locatie **reservaties** hebt ingeschakeld, functioneert elke afzonderlijke openingstijd-blok als één te reserveren tijdslot. Wil je bijvoorbeeld dat studenten per 2 uur reserveren in plaats van één aaneengesloten periode van 8 uur? Maak dan meerdere afzonderlijke openingstijden (blokken van 2 uur) op één dag aan in plaats van één grote blok.
+::: tip Openingsuren en reservaties
+Een opening bepaalt wanneer een locatie gebruikt kan worden. Of een student moet reserveren, wordt [per zone](../zones) ingesteld. Controleer naast de openingsuren ook de capaciteit en reservatieperiode van de gewenste zone.
 :::
 
 ## Openingsuren aanpassen of verwijderen

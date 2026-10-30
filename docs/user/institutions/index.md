@@ -1,36 +1,25 @@
 # Organisatiebeheerder
 
-Als **organisatiebeheerder** beheer je een organisatie die meerdere locaties omvat (bv. een onderwijsinstelling).
-Vanuit de organisatie kan je:
+Een organisatie bundelt meerdere locaties en hun toegangsbeheer, bijvoorbeeld voor een onderwijsinstelling. **Leden** zijn gebruikers die aan de organisatie gekoppeld zijn; **beheerders** krijgen rechten om de organisatie of locaties te beheren.
 
-- locaties koppelen, aanmaken, en verwijderen
-- leden beheren
-- beheerders en rollen beheren
-- groepen aanmaken en toegang toekennen
+## Je organisatie openen
 
-::: info
-Organisaties kunnen gebruikt worden om beheer te centraliseren.
-Organisatiebeheerders hebben automatisch toegang tot gekoppelde locaties.
-:::
+Klik op **Beheren** of ga op je profiel naar **Mijn Beheer**. Onder **Organisaties** open je de organisatie waarvoor je beheerdersrechten hebt.
 
-## Overzicht van beheerbare organisaties
-
-Je vindt alle organisaties waartoe je beheerdersrechten hebt in de beheermodus op je profiel,
-onder de rubriek 'Organisaties & Groepen'.
-
-![Afbeelding: Overzicht van beheerbare organisaties](./assets/beheerbare-organisaties.png)
+![Mijn Beheer](/assets/my-management.png)
 
 ## Organisatiedashboard
 
-Eens je op een beheerbare organisatie klikt kom je op het organisatiedashboard terecht.
-Hier kan je de locaties, leden, groepen, beheerders, en rollen van de organisatie bekijken.
-Het logo van de organisatie kan je veranderen door op het bestaande logo te klikken.
+Het dashboard toont de organisatie, het aantal locaties en leden. Onder **Structuur** vind je **Locaties** en **Leden**. Onder **Toegangscontrole** staan **Beheerders**, **Blacklist** en **Rollen**.
 
-![Afbeelding: Organisatiedashboard](./assets/organisatie-dashboard.png)
+![Organisatiedashboard](/assets/institution-dashboard-current.png)
 
-## Snelkoppelingen
+Welke acties beschikbaar zijn, hangt af van je rol. Organisatiebeheer geeft toegang tot gekoppelde locaties volgens de toegekende rechten.
 
-- [Locaties beheren](./locations.md)
-- [Leden beheren](./members.md)
-- [Toegangsbeheer](./access/)
-- [Groepen beheren](./authorities/index.md)
+## Verder werken
+
+- [Locaties beheren](./locations): openen, aanmaken en koppelen.
+- [Leden beheren](./members): gekoppelde gebruikers bekijken en toevoegen.
+- [Beheerders beheren](./access/): beheertoegang toekennen.
+- [Rollen en rechten](./access/roles): bevoegdheden instellen.
+- [Blacklist](./blacklist): blokkeringen beheren.

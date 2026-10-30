@@ -1,11 +1,16 @@
-# Instellingen
+# Locatie-instellingen
 
-Hier kun je de instellingen aanpassen die je eerder hebt geconfigureerd tijdens de creatie van de locatie. Navigeer in het dashboard naar het instellingen menu voor je locatie.
+Open **Instellingen** onder **Configuratie** op het locatiedashboard. In het venster **Locatie-instellingen** kies je welke gegevens je wil bewerken.
 
-![Afbeelding: Locatie van de locatie-instellingen](../assets/location-dashboard-settings-indication.png)
+![Locatie-instellingen](/assets/location-settings-current.png)
 
-Hieronder vind je alle specifieke aspecten die je kunt beheren.
+- **Overzicht**: naam, beschrijving en samenvatting.
+- **Adres**: adresgegevens en positie op de kaart.
+- **Tags**: voorzieningen van de locatie.
+- **Afbeeldingen**: foto's van de studieplek.
+- **Locatiebeheerder**: de organisatie of groep waaronder de locatie valt.
 
-- [Algemene gegevens](./general.md)
-- [Afbeeldingen](./images.md)
-- [Geavanceerde instellingen](./advanced.md)
+
+Open een onderdeel, pas de gegevens aan en bewaar via de actie in dat onderdeel. Sluit een venster zonder op te slaan om je wijzigingen niet toe te passen.
+
+Reservatie-instellingen beheer je via **Zones**. Zie [Zones en zitplaatsen](../zones), [Algemene gegevens](./general) en [Afbeeldingen](./images).

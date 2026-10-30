@@ -4,7 +4,7 @@
 Het strafpuntensysteem is momenteel in ontwikkeling en is binnenkort beschikbaar.
 :::
 
-Wanneer een student niet komt opdagen voor een reservering (een _no-show_), worden er strafpunten aan hun profiel toegekend. Deze strafpunten zijn platformbreed: punten die op de ene locatie zijn verzameld, tellen ook mee op alle andere locaties binnen Blokmap.
+Wanneer een student niet komt opdagen voor een reservatie (een _no-show_), worden er strafpunten aan hun profiel toegekend. Deze strafpunten zijn platformbreed: punten die op de ene locatie zijn verzameld, tellen ook mee op alle andere locaties binnen Blokmap.
 
 Als locatiebeheerder bepaal je echter zelf hoe strikt je deze strafpunten hanteert voor jouw specifieke locatie:
 

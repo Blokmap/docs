@@ -1,25 +1,33 @@
-# Rollen en Rechten
+# Rollen en rechten
 
-Elke locatiebeheerder kan een optionele rol krijgen toegewezen. Op de rollen-pagina zie je een overzicht van alle beschikbare rollen voor jouw locatie.
+Een rol bundelt rechten voor een locatiebeheerder. Open **Rollen** onder **Configuratie** op het locatiedashboard. Het overzicht toont de rollen en bijbehorende permissies.
 
-![Afbeelding: Rollen overzicht](../assets/location-roles.png)
-
-Vanuit dit overzicht kun je eenvoudig rollen beheren. Wanneer je een rol verwijdert, wordt deze rol automatisch verwijderd bij iedereen (elke beheerder) die deze rol op dat moment had toegewezen gekregen.
-
-:::tip Belangrijk
-Elke locatie heeft `Admin` als standaardrol. Deze rol kan niet verwijderd of aangepast worden.
+::: tip 
+De standaardrol **Admin** geeft beheerdersrechten. Gebruik die alleen voor personen die het volledige beheer moeten kunnen uitvoeren.
 :::
 
-## Een nieuwe rol aanmaken
+## Een voorgemaakte rol gebruiken
 
-Via de knop rechtsboven kun je, vergelijkbaar met het beheerdersoverzicht, een nieuwe rol toevoegen. In het dialoogvenster voor rollen kun je de volgende zaken instellen:
+Klik op **Rol toevoegen** om de voorgemaakte rollen te bekijken:
 
-- **Naam**: Een duidelijke en herkenbare naam voor de rol.
-- **Badgekleur**: Een kleur om de rol snel visueel te herkennen in het beheerdersoverzicht.
-- **Rechten**: De specifieke permissies die aan deze rol gekoppeld worden.
+| Rol | Bevoegdheden |
+| --- | --- |
+| Toezichthouder | Reservaties beheren, QR-codes genereren en QR-codes vernieuwen. |
+| Coordinator | Ook openingsuren, instellingen, beheerders en rollen beheren. |
 
-![Afbeelding: Rol toevoegen](../assets/location-roles-dialog.png)
+Controleer de getoonde rechten en kies **Toevoegen** bij de gewenste rol. Wijs de rol daarna toe via [Beheerders](./index).
 
-::: info Work in progress
-Het systeem voor de gedetailleerde (daadwerkelijke) rechten wordt momenteel herwerkt en is voorlopig nog _work in progress_.
-:::
+![Voorgemaakte rollen voor een locatie](/assets/location-role-presets.png)
+
+## Zelf een rol samenstellen
+
+Kies **Zelf een rol samenstellen** wanneer een voorgemaakte rol niet past. Geef de rol een herkenbare naam, kies een badgekleur en selecteer de benodigde rechten. Bewaar de rol en wijs ze vervolgens aan de juiste beheerders toe.
+
+![Dialoogvenster om een rol aan te maken](/assets/location-role-dialog.png)
+
+Geef iemand alleen de rechten die voor de taak nodig zijn. Voor iemand die de toegang controleert, is een rol voor reservaties en QR-codes meestal voldoende.
+
+## Rollen aanpassen en verwijderen
+
+Open het actiemenu naast een bestaande rol voor de beschikbare wijzigingen. Controleer vóór het verwijderen welke beheerders deze rol gebruiken. Behoud minstens één beheerder met voldoende rechten om de toegang te beheren.
+

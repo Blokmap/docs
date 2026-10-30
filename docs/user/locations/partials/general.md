@@ -1,19 +1,19 @@
-De presentatie van een locatie wordt bepaald door de naam, een korte omschrijving en een uitgebreide beschrijving.
+## Naam en beschrijving
 
-- **Naam**: Geef de locatie een unieke en herkenbare naam, bijvoorbeeld "Bibliotheek De Krook".
-- **Korte omschrijving**: Omschrijf de locatie in maximaal 6 woorden. Dit geeft studenten een snel idee van wat ze kunnen verwachten van de bloklocatie.
-- **Uitgebreide beschrijving**: Gebruik dit veld voor gedetailleerde informatie. Via de rich text-opmaak kun je ook opsommingstekens, vetgedrukte tekst of links toevoegen.
+In **Overzicht** beheer je de naam, korte samenvatting en uitgebreide beschrijving. Geef de locatie een herkenbare naam en beschrijf praktische informatie zoals de ingang, huisregels en toegankelijkheid.
 
-![Afbeelding: Algemene locatie-instellingen](/user/locations/assets/location-settings-overview.png)
+![Algemene locatie-instellingen](/assets/location-general-settings.png)
 
-::: tip
-Je kunt de **korte** en **uitgebreide beschrijvingen** vertalen naar alle beschikbare talen binnen Blokmap. We raden dit sterk aan: zo vergroot je het bereik van je locatie en ben je optimaal inclusief!
-:::
+Gebruik de beschikbare taalkeuze om vertalingen toe te voegen. Controleer elke taal afzonderlijk voordat je bewaart.
 
-Verder kun je hier de **tags** van de locatie instellen. Hiermee geef je aan welke faciliteiten er aanwezig zijn, zoals gratis wifi of een koffieautomaat.
+## Voorzieningen
 
-![Afbeelding: Eigenschappen van een locatie](/user/locations/assets/location-settings-tags.png)
+In **Tags** selecteer je aanwezige voorzieningen, zoals wifi en stopcontacten. Studenten gebruiken die tags bij het zoeken. Selecteer alleen voorzieningen die werkelijk beschikbaar zijn.
 
-Tot slot bepaal je het **adres** van de locatie. Optioneel kun je de marker op de kaart handmatig verfijnen, bijvoorbeeld om de exacte ingang van het gebouw aan te duiden.
+![Tag locatie-instellingen](/assets/location-tag-settings.png)
 
-![Afbeelding: Adres van een locatie](/user/locations/assets/location-settings-address.png)
+## Adres en kaart
+
+In **Adres** beheer je de adresgegevens en positie op de kaart. Controleer of de kaartmarker bij de juiste ingang staat, vooral bij campussen of gebouwen met meerdere toegangen.
+
+![Adres locatie-instellingen](/assets/location-address-settings.png)

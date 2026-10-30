@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # Build and library files.
 node_modules
+.direnv/
 tsconfig.tsbuildinfo
 *.local
 .env
@@ -24,3 +25,4 @@ tsconfig.tsbuildinfo
 
 **/.vitepress/dist
 **/.vitepress/cache
+**/.vitepress/.temp

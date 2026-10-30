@@ -1,25 +1,24 @@
-# Locatie aanmaken
+# Dashboard & Overzicht
 
-## Locatie-wizard
+## Je beheerbare locaties
 
-::: info
-Nieuwe bloklocaties moeten na aanmaak altijd eerst worden goedgekeurd door een Blokmap-beheerder. Zo voorkomen we misbruik van het platform. Meestal duurt dit maximaal een paar uur.
-:::
+Klik op **Beheren** in de hoofdnavigatie of open **Mijn Beheer** op je profiel. Hier vind je locaties waarvoor je rechtstreeks beheerdersrechten hebt of toegang erft via een organisatie.
 
-Met de locatie-wizard maak je snel en eenvoudig een nieuwe locatie aan. Je wordt stap voor stap begeleid bij het invullen van de basisinformatie voor je nieuwe bloklocatie.
+![Mijn Beheer](/assets/my-management.png)
 
-Je kan de wizard makkelijk openen via de sidebar wanneer je op het menu rechtsboven in de navigatiebalk klikt:
+Open een locatie om naar het locatiedashboard te gaan. Welke acties je kan gebruiken, hangt af van je rol.
 
-![Afbeelding: Navigatiesidebar](./assets/sidebar.png)
+![Locatiedashboard met werking en configuratie](/assets/location-dashboard-current.png)
 
-Tijdens de creatie kun je ervoor kiezen om de locatie **individueel** aan te maken of te koppelen onder een **organisatie** (indien je organisatiebeheerder bent):
+## Werking
 
-![Afbeelding: Start van locatiewizard](./assets/location-wizard-start.png)
+- **Openingsuren**: beheer wanneer de locatie geopend is.
+- **Reservaties**: bekijk en beheer aanvragen. Bij een locatie zonder reserveerbare [zone](./zones.md) kan deze kaart als **Niet reserveerbaar** aangeduid zijn.
+- **Zones**: verdeel je locatie in studieruimtes en stel capaciteit en reservatiegedrag per [zone](./zones.md) in.
+- **Aanwezigheid**: open de check-in-QR-codes voor [zones en zitplaatsen](./zones.md).
 
-De wizard zelf bestaat uit 3 stappen, waar we vragen de algemene informatie (oa.naam, beschrijvingen, locatie op de kaart...), de afbeeldingen, en de algemene instellingen (o.a. zichtbaarheid, reservatie-instellingen...) in te vullen.
+## Configuratie
 
-![Afbeelding: Locatiewizard](./assets/location-wizard.png)
+Via **Beheerders**, **Rollen**, **Instellingen** en **Blacklist** regel je toegang en locatiegegevens. Reservatie-instellingen worden [per zone](./zones) beheerd.
 
-Lees meer over het configureren van een bloklocatie op [deze pagina](./settings/).
-
-Na het aanmaken van een nieuwe locatie heb je meteen toegang tot het [locatiedashboard](./location-dashboard.md), waar je de locatie verder kan instellen (o.a. **openingsuren** en **toegangscontrole**).
+Met **Preview** bekijk je de publieke locatiepagina. Gebruik die na wijzigingen om de gegevens en openingsuren te controleren.

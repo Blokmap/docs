@@ -1,15 +1,19 @@
-# Rollen & Rechten
+# Rollen en rechten
 
-:::tip
-Rollen voor organisaties werken op exact dezelfde manier als bij locaties, met het enige verschil dat er extra permissies zijn die je kunt toewijzen aan een rol.
+Open **Rollen** onder **Toegangscontrole** op het organisatiedashboard. Een organisatierol bundelt rechten voor beheerders van de organisatie.
+
+::: tip :bulb: Zelfde werking als locatiebeheerders
+Het beheren van rollen op organisatieniveau werkt op dezelfde manier als het beheren van rollen op locatieniveau. Raadpleeg de [documentatie over locatierollen](../../locations/access/roles.md) voor een gedetailleerde uitleg.
 :::
 
-Binnen organisaties kan je, net zoals bij [locaties](../../locations/access/roles.md), de rollen beheren die je wilt geven aan een beheerder.
+## Een rol kiezen of aanmaken
 
-![Afbeelding: Overzicht van rollen](../assets/institution-roles.png)
+Via **Rol toevoegen** bekijk je de beschikbare voorgemaakte rollen. Controleer hun rechten voordat je een rol toevoegt. Via **Zelf een rol samenstellen** kan je een eigen naam, badgekleur en combinatie van rechten kiezen.
 
-Voor verdere informatie omtrent rollen en rechten verwijzen we naar de documentatie over [rollen en rechten op locaties](../../locations/access/roles.md).
+De werkwijze is dezelfde als bij [locatierollen](/user/locations/access/roles), maar organisatierechten hebben een ruimere reikwijdte. Controleer daarom welke acties voor de organisatie en gekoppelde locaties toegestaan worden.
 
-::: info Work in progress
-Het systeem voor de gedetailleerde (daadwerkelijke) rechten wordt momenteel herwerkt en is voorlopig nog _work in progress_.
-:::
+## Een rol toewijzen
+
+Open [Beheerders](./index), zoek de persoon en wijs de gewenste rol toe. Alleen een rol aanmaken geeft een gebruiker nog geen beheertoegang.
+
+Controleer bij het aanpassen of verwijderen van een rol welke beheerders ze gebruiken. Behoud minstens één beheerder die het toegangsbeheer kan uitvoeren.

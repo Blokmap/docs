@@ -23,7 +23,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     text: 'Blokmap Profiel',
                     items: [
                         { text: 'Overzicht', link: '/user/students/' },
-                        { text: 'Inloggen', link: '/user/students/' },
+                        { text: 'Inloggen', link: '/user/students/#inloggen' },
                         {
                             text: 'Profiel beheren',
                             link: '/user/students/managing-profile',
@@ -52,7 +52,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                         },
                         {
                             text: 'Reservaties bevestigen',
-                            link: '/user/students/managing-reservations',
+                            link: '/user/students/checking-in',
                         },
                     ],
                 },
@@ -63,9 +63,10 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         {
                             text: 'Overzicht',
-                            link: '/user/locations/location-dashboard',
+                            link: '/user/locations/',
                         },
-                        { text: 'Locatie aanmaken', link: '/user/locations/' },
+                        { text: 'Locatie aanmaken', link: '/user/locations/creating-location' },
+                        { text: 'Zones en zitplaatsen', link: '/user/locations/zones' },
                     ],
                 },
                 {
@@ -74,10 +75,6 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Algemeen', link: '/user/locations/settings/general' },
                         { text: 'Afbeeldingen', link: '/user/locations/settings/images' },
-                        {
-                            text: 'Geavanceerd',
-                            link: '/user/locations/settings/advanced',
-                        },
                     ],
                 },
                 {
@@ -109,6 +106,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Beheerders', link: '/user/locations/access/' },
                         { text: 'Rollen & Rechten', link: '/user/locations/access/roles' },
+                        { text: 'Blacklist', link: '/user/locations/blacklist' },
                     ],
                 },
             ],
@@ -127,23 +125,6 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     ],
                 },
                 {
-                    text: 'Locatiegroepen',
-                    items: [
-                        {
-                            text: 'Overzicht',
-                            link: '/user/institutions/authorities/',
-                        },
-                        {
-                            text: 'Groepen beheren',
-                            link: '/user/institutions/authorities/authority-dashboard',
-                        },
-                        {
-                            text: 'Rollen & Rechten',
-                            link: '/user/institutions/authorities/authority-roles',
-                        },
-                    ],
-                },
-                {
                     text: 'Leden',
                     items: [
                         {
@@ -157,6 +138,7 @@ export const nl: LocaleSpecificConfig<DefaultTheme.Config> = {
                     items: [
                         { text: 'Beheerders', link: '/user/institutions/access/' },
                         { text: 'Rollen & Rechten', link: '/user/institutions/access/roles' },
+                        { text: 'Blacklist', link: '/user/institutions/blacklist' },
                     ],
                 },
             ],

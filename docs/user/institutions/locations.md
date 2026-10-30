@@ -1,25 +1,26 @@
 # Locaties beheren
 
-Op deze pagina beheer je de locaties die aan een organisatie zijn gekoppeld.
-Via de zoekbalk kan je zoeken op naam en/of omschrijving van de locatie,
-of je kan via het dropdownmenu filteren op de status van de locatie.
+Open **Locaties** op het organisatiedashboard. Gebruik de zoekbalk en statusfilter om een locatie terug te vinden. Het overzicht toont onder meer de naam, indiener en status. Onderaan kan je naar de volgende pagina met resultaten gaan.
 
-![Afbeelding: Lijst van gekoppelde locaties](./assets/organisatie-locaties.png)
+Open de beschikbare actie bij een locatie om naar het [locatiedashboard](/user/locations/) te gaan.
 
-Door op een locatie te klikken kom je terecht op het [locatiedashboard](/user/locations/location-dashboard#locatiedashboard)
+## Een locatie aanmaken
 
-## Locaties Aanmaken
+Klik op de plusknop rechtsboven. De locatie-wizard opent met de organisatie als context. Vul de gegevens in, controleer de gekozen organisatie en rond de wizard af. Lees [Locatie aanmaken](/user/locations/creating-location) voor de stappen.
 
-Vanuit deze pagina kan je direct locaties onder een organisatie aanmaken door op de plus-knop rechtsboven te drukken.
-Meer uitleg hierover vind je op de pagina over [locaties aanmaken](/user/locations/index).
+## Een bestaande locatie koppelen
 
-## Locaties koppelen <Badge type="danger" text="TODO" />
+Het koppelen van een bestaande locatie gebeurt vanuit de instellingen van die locatie:
 
-Indien je ook beheerder van een locatie bent die nog niet onder een organisatie valt,
-kan je deze ook koppelen via die TODO knop.
-Hiermee komt de locatie
+1. Open het locatiedashboard.
+2. Kies **Instellingen → Locatiebeheerder**.
+3. Kies de organisatie of groep waaronder de locatie moet vallen.
+4. Controleer de keuze en bewaar de wijziging.
 
-::: danger
-Als de organisatie bepaalde restricties heeft over wie er kan reserveren kan het
-zijn dat bestaande reservaties op deze locatie geannuleerd worden.
+![Locatiebeheerder wijzigen](/assets/location-parent.png)
+
+Hiervoor heb je passende beheerdersrechten nodig. Als de gewenste organisatie niet beschikbaar is, laat dan je toegang controleren door een organisatiebeheerder.
+
+::: warning Gevolgen voor toegang
+Een wijziging van organisatie kan invloed hebben op de beheerders en toegangsvoorwaarden van een locatie. Controleer na de wijziging het toegangsbeheer en bestaande reservaties.
 :::
