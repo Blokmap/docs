@@ -3,7 +3,7 @@
 Open **Beheerders** onder **Toegangscontrole** op het organisatiedashboard. Hier beheer je personen met beheertoegang. Gewone [leden](../members) hebben die toegang niet automatisch.
 
 ::: tip :bulb: Zelfde werking als locatiebeheerders
-Het beheren van organisatiebeheerders werkt op dezelfde manier als het beheren van locatiebeheerders. Raadpleeg de [documentatie over locatiebeheerders](../../locations/access) voor een gedetailleerde uitleg.
+Het beheren van organisatiebeheerders werkt op dezelfde manier als het beheren van locatiebeheerders. Raadpleeg de [documentatie over locatiebeheerders](../../locations/access/) voor een gedetailleerde uitleg.
 :::
 
 Beheerders op organisatie-niveau kunnen toegang krijgen tot alle locaties onder de organisatie, zonder dat het nodig is om hen op elke locatie apart als beheerder toe te voegen.
